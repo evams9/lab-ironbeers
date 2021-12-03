@@ -2,6 +2,59 @@
 white: #f7f9f9;
 light-blue: #2081c3;
 dark-blue: #0a2c42;
-grey: #bfbfbf;
+grey: #bfbfbf; --------------------------> Aquí he usado el #666 para las sombras pq este no se veía casi. 
 font-family: Arial, Helvetica, sans-serif;
 */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+nav {
+    background: #2081c3;
+    padding: 25px;
+    box-shadow: 2px 2px 10px #666;
+
+  }
+nav a {
+    color:#f7f9f9;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 17px;
+
+  }
+
+.img-beer{
+    width: 20%;
+    margin-left: 570px;
+    padding: 50px;
+    
+
+}
+
+button{
+background-color: #2081c3;
+color: #f7f9f9;
+border-radius:4px;
+font-family: Arial, Helvetica, sans-serif;
+display:flex;
+/*margin-left: 600px;
+margin-top: 15px;*/
+margin-left: auto;
+margin-right: auto;
+margin-block-end: 20px;
+padding: 10px;
+box-shadow: 2px 2px 10px #666;
+border:none;
+
+}
+
+footer {
+    padding: 20px;
+   /* margin-bottom: auto; --> No he conseguido que el footer quede en la parte inferior de la página.
+   He probado también con position: fixed; bottom: 0px. Pero tampoco me funciona. Alguna sujeréncia? */
+    background: #0a2c42;
+    color: #f7f9f9;     
+  }
